@@ -6,7 +6,7 @@ def count_elements(array)
   array.each_with_object({}) do |key, container|
     if array.include?(key) 
       counter += 1
-      #new_hash[key.to_sym][counter]
+      #new_hash[key.to_sym => counter]
     binding.pry
     else
     end  

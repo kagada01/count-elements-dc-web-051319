@@ -4,7 +4,7 @@ def count_elements(array)
   array.each_with_object({}) do |element, container| 
   
     
-    #new_hash[element] += 1
+    #container[element] += 1
     #new_hash
     binding.pry
   end

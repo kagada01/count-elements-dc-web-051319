@@ -5,7 +5,7 @@ def count_elements(array)
   
     
     container[element] += 1
-    #new_hash
+    container
     binding.pry
   end
 end

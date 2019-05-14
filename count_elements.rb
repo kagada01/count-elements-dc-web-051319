@@ -1,8 +1,7 @@
 require 'pry'
 
 def count_elements(array)
-  new_hash = 
-  array.each_with_object({}) do |element| 
+  array.each_with_object({}) do |element, count| 
     new_hash[element] += 1
     new_hash
   #binding.pry

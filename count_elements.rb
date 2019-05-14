@@ -6,7 +6,6 @@ def count_elements(array)
     if array.include?(key) 
       counter += 1
       new_hash[key.to_sym][counter]
-    
     binding.pry
   end
   new_hash

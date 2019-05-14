@@ -5,5 +5,6 @@ def count_elements(array)
   array.each_with_object({}) do |key, container|
     #binding.pry
   end
+  new_hash
 end
  

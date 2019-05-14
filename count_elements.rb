@@ -6,7 +6,7 @@ def count_elements(array)
     
     container[element] += 1
     container
-    binding.pry
+    #binding.pry
   end
 end
 

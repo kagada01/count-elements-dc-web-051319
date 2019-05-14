@@ -2,9 +2,10 @@ require 'pry'
 
 def count_elements(array)
   array.each_with_object({}) do |element, container| 
-    binding.pry
+  
     
     new_hash[element] += 1
+      binding.pry
     new_hash
 
   end

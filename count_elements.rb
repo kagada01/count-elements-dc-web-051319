@@ -2,9 +2,8 @@ require 'pry'
 
 def count_elements(array)
   new_hash = {}
-  array.each do |key, value|
+  array.each_with_object({}) do |key, value|
     
   end
-  new_hash
 end
  

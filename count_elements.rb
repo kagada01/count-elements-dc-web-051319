@@ -5,7 +5,7 @@ def count_elements(array)
   array.each do |element| 
   new_hash[element]
   new_hash
-  
+  binding.pry
   end
 end
  

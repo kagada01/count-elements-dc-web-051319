@@ -5,5 +5,6 @@ def count_elements(array)
   array.each do |key, value|
     
   end
+  new_hash
 end
  

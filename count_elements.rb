@@ -4,8 +4,8 @@ def count_elements(array)
   new_hash = {}
   array.each do |element| 
   new_hash[element]
-  end
-  binding.pry
   new_hash
+  end
+
 end
  
